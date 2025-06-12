@@ -14,7 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             className="h-auto"
           />
           <div className="space-y-5 text-white">
-            <h1 className="h1">Manage your files the best waay</h1>
+            <h1 className="h1">Manage your files the best way</h1>
             <p className="body-1">
               This is a place where you can store all youur documents
             </p>
