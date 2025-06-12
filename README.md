@@ -1,8 +1,8 @@
-# 📁 Storage MFM - Cloud Storage Platform
+# 📁 StorageMFM - Cloud Storage Platform
 
 > A modern cloud storage solution inspired by Google Drive, built with Next.js and Appwrite.
 
-![Storage MFM Banner](./public/assets/images/dashboard.png)
+![Storage MFM Banner](./public/assets/images/Dashboard.png)
 
 ## 🌟 Features
 
