@@ -57,6 +57,16 @@ const AuthForm = ({ type }: { type: FormType }) => {
               email: values.email,
             })
           : await signInUser({ email: values.email });
+      console.log("user", user);
+
+      if (user.accountId === null) {
+        setErrorMessage("User not found. Please check your email.");
+        return;
+      }
+      if (type === "sign-in" && !user.isVerified) {
+        setErrorMessage("Please verify your email to sign in.");
+        return;
+      }
 
       setAccountId(user.accountId);
     } catch (error) {
